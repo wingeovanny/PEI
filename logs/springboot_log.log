@@ -214,3 +214,21 @@
 [INFO ] 2022-09-21 01:27:03.532 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [INFO ] 2022-09-21 01:27:11.631 FrameworkServlet 'dispatcherServlet': initialization started
 [INFO ] 2022-09-21 01:27:11.659 FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+[INFO ] 2022-09-21 01:39:23.444 Root WebApplicationContext: initialization completed in 1821 ms
+[INFO ] 2022-09-21 01:39:26.166 Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73e9cf30: startup date [Wed Sep 21 01:39:21 COT 2022]; root of context hierarchy
+[INFO ] 2022-09-21 01:39:26.274 Mapped "{[/api/cuenta],methods=[PUT],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.update(com.challenge.entity.Cuenta)
+[INFO ] 2022-09-21 01:39:26.277 Mapped "{[/api/cuenta/{id}],methods=[DELETE],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.delete(long)
+[INFO ] 2022-09-21 01:39:26.278 Mapped "{[/api/cuenta],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.insert(com.challenge.entity.Cuenta)
+[INFO ] 2022-09-21 01:39:26.280 Mapped "{[/api/cuenta/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.getAccount(long)
+[INFO ] 2022-09-21 01:39:26.281 Mapped "{[/api/cuenta],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.Collection<com.challenge.entity.Cuenta>> com.challenge.controller.CuentaController.getAllAccounts()
+[INFO ] 2022-09-21 01:39:26.289 Mapped "{[/api/transaccion/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Transaccion> com.challenge.controller.TransaccionController.find(long)
+[INFO ] 2022-09-21 01:39:26.291 Mapped "{[/api/transaccion],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Transaccion> com.challenge.controller.TransaccionController.insert(com.challenge.entity.Transaccion)
+[INFO ] 2022-09-21 01:39:26.294 Mapped "{[/api/transaccion],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.Collection<com.challenge.entity.Transaccion>> com.challenge.controller.TransaccionController.findAll()
+[INFO ] 2022-09-21 01:39:26.300 Mapped "{[/user],methods=[POST]}" onto public com.challenge.dto.User com.challenge.controller.UserController.login(java.lang.String,java.lang.String)
+[INFO ] 2022-09-21 01:39:26.306 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2022-09-21 01:39:26.310 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2022-09-21 01:39:26.375 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-21 01:39:26.376 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-21 01:39:26.450 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-21 01:39:34.257 FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2022-09-21 01:39:34.285 FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
