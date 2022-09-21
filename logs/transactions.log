@@ -1,0 +1,6 @@
+[INFO ] 2022-09-20 22:39:19.130 Id Transaccion: 0, Estado: ERROR_MISMA_CUENTA, Valor: 100, Cuenta Origen: 100002, Cuenta Destino: 100002,  TipoTransaccion: null.
+[INFO ] 2022-09-20 22:41:07.547 Id Transaccion: 0, Estado: ERROR_MISMA_CUENTA, Valor: 100, Cuenta Origen: 100002, Cuenta Destino: 100002,  TipoTransaccion: PAGO.
+[INFO ] 2022-09-20 22:41:18.782 Id Transaccion: 0, Estado: ERROR_MISMA_CUENTA, Valor: 100, Cuenta Origen: 100002, Cuenta Destino: 100002,  TipoTransaccion: ABONO.
+[INFO ] 2022-09-20 22:42:29.907 Id Transaccion: 0, Estado: ERROR_MISMA_CUENTA, Valor: 100, Cuenta Origen: 100002, Cuenta Destino: 100002,  TipoTransaccion: ABONO.
+[INFO ] 2022-09-20 22:42:59.885 Id Transaccion: 0, Estado: ERROR_SALDO_INSUFICIENTE, Valor: 10000, Cuenta Origen: 100000, Cuenta Destino: 100002,  TipoTransaccion: ABONO.
+[INFO ] 2022-09-20 22:43:30.613 Id Transaccion: 1, Estado: OK, Valor: 10, Cuenta Origen: 100002, Cuenta Destino: 100000,  TipoTransaccion: ABONO.

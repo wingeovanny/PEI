@@ -6,7 +6,7 @@ import com.challenge.entity.Transaccion;
 
 public class LogDeTransacciones {
 
-    private static final Logger logger = LogManager.getLogger("transaccion");
+    private static final Logger logger = LogManager.getLogger("transaction");
 
     // Log de las transacciones procesadas
     public static void log(Transaccion transaccion) {

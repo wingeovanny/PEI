@@ -14,14 +14,15 @@ public class Transaccion {
 
     private long origen;
     private long destino;
-    private double valor;
+    private long valor;
     private TipoTransaccion tipoTransaccion;
     private EstadoTransaccion estadoTransaccion;
+    private int result;
 
     public Transaccion() {
     }
 
-    public Transaccion(long origen, long destino, double valor) {
+    public Transaccion(long origen, long destino, long valor) {
         this.origen = origen;
         this.destino = destino;
         this.valor = valor;
@@ -32,6 +33,10 @@ public class Transaccion {
         return id;
     }
 
+    public int getResult() {
+        return result;
+    }
+
     public long getOrigen() {
         return origen;
     }
@@ -40,7 +45,7 @@ public class Transaccion {
         return destino;
     }
 
-    public double getValor() {
+    public long getValor() {
         return valor;
     }
 
@@ -58,5 +63,9 @@ public class Transaccion {
 
     public void setEstadoTransaccion(EstadoTransaccion estado) {
         this.estadoTransaccion = estado;
+    }
+
+    public void setResult(int result) {
+        this.result = result;
     }
 }

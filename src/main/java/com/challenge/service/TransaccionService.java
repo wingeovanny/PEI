@@ -38,7 +38,10 @@ public class TransaccionService {
 
         if (status == EstadoTransaccion.OK) {
             save(transaccion);
+
+            transaccion.setResult(1);
         }
+
         LogDeTransacciones.log(transaccion);
         return transaccion;
     }

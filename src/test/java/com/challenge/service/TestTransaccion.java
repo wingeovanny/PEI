@@ -44,7 +44,7 @@ public class TestTransaccion extends TestGlobal {
     @Test
     public void transacccion() {
 
-        double valorTransaccion = 100;
+        long valorTransaccion = 100;
 
         Transaccion newTransaction = new Transaccion(
                 cuentaunogye.getId(),
@@ -55,7 +55,7 @@ public class TestTransaccion extends TestGlobal {
 
         String msg = "Error en el test de la transaccion";
 
-        Assert.assertEquals(msg, resultadoTransaccion.getId(), 0, 0);
+        Assert.assertEquals(msg, resultadoTransaccion.getId(), 1, 0);
     }
 
 }

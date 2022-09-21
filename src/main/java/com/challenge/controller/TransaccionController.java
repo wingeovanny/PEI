@@ -18,7 +18,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 
 @RestController
-@RequestMapping("/api/transaction")
+@RequestMapping("/api/transaccion")
 public class TransaccionController extends BaseController {
 
     @Autowired
@@ -42,7 +42,7 @@ public class TransaccionController extends BaseController {
     public ResponseEntity<Transaccion> find(@PathVariable("id") long id) {
         Transaccion t = transaccionService.find(id);
         if (t == null) {
-            throw new NoResultException("Transaction " + id + " not found");
+            throw new NoResultException("Transaction " + id + " no existe");
         }
         return new ResponseEntity<>(t, HttpStatus.OK);
     }
