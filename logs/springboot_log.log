@@ -127,3 +127,39 @@
 [INFO ] 2022-09-20 22:38:18.095 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 [INFO ] 2022-09-20 22:39:18.828 FrameworkServlet 'dispatcherServlet': initialization started
 [INFO ] 2022-09-20 22:39:18.869 FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+[INFO ] 2022-09-20 22:45:33.916 Root WebApplicationContext: initialization completed in 3608 ms
+[INFO ] 2022-09-20 22:55:31.112 Root WebApplicationContext: initialization completed in 3121 ms
+[INFO ] 2022-09-20 22:55:34.060 Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13fd2ccd: startup date [Tue Sep 20 22:55:27 COT 2022]; root of context hierarchy
+[INFO ] 2022-09-20 22:55:34.221 Mapped "{[/api/cuenta],methods=[PUT],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.update(com.challenge.entity.Cuenta)
+[INFO ] 2022-09-20 22:55:34.224 Mapped "{[/api/cuenta/{id}],methods=[DELETE],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.delete(long)
+[INFO ] 2022-09-20 22:55:34.227 Mapped "{[/api/cuenta],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.insert(com.challenge.entity.Cuenta)
+[INFO ] 2022-09-20 22:55:34.229 Mapped "{[/api/cuenta],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.Collection<com.challenge.entity.Cuenta>> com.challenge.controller.CuentaController.getAllAccounts()
+[INFO ] 2022-09-20 22:55:34.231 Mapped "{[/api/cuenta/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.getAccount(long)
+[INFO ] 2022-09-20 22:55:34.235 Mapped "{[/api/transaccion/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Transaccion> com.challenge.controller.TransaccionController.find(long)
+[INFO ] 2022-09-20 22:55:34.236 Mapped "{[/api/transaccion],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Transaccion> com.challenge.controller.TransaccionController.insert(com.challenge.entity.Transaccion)
+[INFO ] 2022-09-20 22:55:34.238 Mapped "{[/api/transaccion],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.Collection<com.challenge.entity.Transaccion>> com.challenge.controller.TransaccionController.findAll()
+[INFO ] 2022-09-20 22:55:34.242 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2022-09-20 22:55:34.244 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2022-09-20 22:55:34.429 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-20 22:55:34.438 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-20 22:55:34.580 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-20 22:56:02.286 FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2022-09-20 22:56:02.308 FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+[INFO ] 2022-09-20 23:06:38.901 Root WebApplicationContext: initialization completed in 2979 ms
+[INFO ] 2022-09-20 23:06:42.078 Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@13fd2ccd: startup date [Tue Sep 20 23:06:35 COT 2022]; root of context hierarchy
+[INFO ] 2022-09-20 23:06:42.244 Mapped "{[/api/cuenta],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.Collection<com.challenge.entity.Cuenta>> com.challenge.controller.CuentaController.getAllAccounts()
+[INFO ] 2022-09-20 23:06:42.248 Mapped "{[/api/cuenta/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.getAccount(long)
+[INFO ] 2022-09-20 23:06:42.249 Mapped "{[/api/cuenta],methods=[PUT],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.update(com.challenge.entity.Cuenta)
+[INFO ] 2022-09-20 23:06:42.251 Mapped "{[/api/cuenta/{id}],methods=[DELETE],consumes=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.delete(long)
+[INFO ] 2022-09-20 23:06:42.252 Mapped "{[/api/cuenta],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Cuenta> com.challenge.controller.CuentaController.insert(com.challenge.entity.Cuenta)
+[INFO ] 2022-09-20 23:06:42.256 Mapped "{[/api/transaccion],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.Collection<com.challenge.entity.Transaccion>> com.challenge.controller.TransaccionController.findAll()
+[INFO ] 2022-09-20 23:06:42.259 Mapped "{[/api/transaccion/{id}],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Transaccion> com.challenge.controller.TransaccionController.find(long)
+[INFO ] 2022-09-20 23:06:42.262 Mapped "{[/api/transaccion],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<com.challenge.entity.Transaccion> com.challenge.controller.TransaccionController.insert(com.challenge.entity.Transaccion)
+[INFO ] 2022-09-20 23:06:42.272 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2022-09-20 23:06:42.274 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2022-09-20 23:06:42.397 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-20 23:06:42.398 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-20 23:06:42.549 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2022-09-20 23:06:50.693 FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2022-09-20 23:06:50.714 FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+[WARN ] 2022-09-20 23:08:14.148 Request method 'PATCH' not supported
