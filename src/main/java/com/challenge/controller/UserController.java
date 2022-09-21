@@ -30,8 +30,7 @@ public class UserController {
 
     private String getJWTToken(String username) {
         String secretKey = "mySecretKey";
-        List<GrantedAuthority> grantedAuthorities = AuthorityUtils
-                .commaSeparatedStringToAuthorityList("ROLE_USER");
+        List<GrantedAuthority> grantedAuthorities = AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_USER");
 
         String token = Jwts
                 .builder()
@@ -47,6 +46,6 @@ public class UserController {
                         secretKey.getBytes())
                 .compact();
 
-        return "Bearer " + token;
+        return "Token " + token;
     }
 }
