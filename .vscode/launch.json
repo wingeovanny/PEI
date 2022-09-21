@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-Application<challenge>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.challenge.Application",
+      "projectName": "challenge",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
