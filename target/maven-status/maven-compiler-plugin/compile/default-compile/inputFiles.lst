@@ -1,5 +1,6 @@
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\service\TransactionPool.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\controller\BaseController.java
+c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\dto\User.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\util\Constants.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\service\TransaccionService.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\repository\TransaccionRepositorio.java
@@ -9,7 +10,9 @@ c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\entity\C
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\service\AsyncTransaction.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\Application.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\controller\TransaccionController.java
+c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\controller\UserController.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\repository\CuentaRepositorio.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\util\LogDeTransacciones.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\entity\Transaccion.java
+c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\seguridad\JWTAuthorizationFilter.java
 c:\Users\Usuario\OneDrive\Dev\PEI\challenge\src\main\java\com\challenge\service\CuentaService.java
